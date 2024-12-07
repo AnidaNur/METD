@@ -1,5 +1,5 @@
 import Img2 from "../../assets/Antimo anak jeruk.png";
-import Img4 from "../../assets/Antimo strawbery.png";
+import Img4 from "../../assets/antimo strawbery.png";
 import Img1 from "../../assets/Antimo tablet.png";
 import Img5 from "../../assets/becefort sirup.png";
 import Img6 from "../../assets/becefort tablet.png";
