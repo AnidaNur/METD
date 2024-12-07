@@ -4,11 +4,12 @@ import { FaLocationArrow, FaMobileAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-Tertiary">
-      <section className="container mx-auto ml-auto lg:ml-40">
-        <div className="grid md:grid-cols-12 grid-cols-1 gap-7 mb-6 w-full ml-auto">
+      <section className="container mx-auto px-4 lg:px-20 py-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 mb-6">
 
+          {/* PT Menjangan Enam Trading and Distribution */}
           <div className="lg:col-span-4 col-span-12 mt-6">
-            <p className="font-semibold mt-6 text-lg sm:text-xl md:text-2xl text-black">
+            <p className="font-semibold text-lg sm:text-xl md:text-2xl text-black">
               PT Menjangan Enam Trading and Distribution
             </p>
             <p className="text-sm sm:text-base md:text-lg text-black">
@@ -30,11 +31,12 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Links Section */}
           <div className="lg:col-span-2 md:col-span-4 col-span-12 mt-12">
             <h5 className="tracking-wide font-semibold text-lg sm:text-xl md:text-2xl text-black">
               Links
             </h5>
-            <ul className="mt-2 space-y-1">
+            <ul className="mt-2 space-y-2">
               <li>
                 <a
                   href="#Home"
@@ -62,6 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/* Address Section */}
           <div className="lg:col-span-3 md:col-span-4 col-span-12 mt-12">
             <h5 className="tracking-wide font-semibold text-lg sm:text-xl md:text-2xl text-black">
               Alamat

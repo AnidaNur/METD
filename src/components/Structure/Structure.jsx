@@ -1,5 +1,5 @@
 import React from "react";
-import Struktur from "../../assets/struktur.png";
+import Struktur from "../../assets/Struktur.png";
 
 const Structure = () => {
   return (

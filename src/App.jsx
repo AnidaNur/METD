@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-white duration-200">
+    <div className="bg-white duration-200 overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

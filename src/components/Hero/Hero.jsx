@@ -4,8 +4,8 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Room1 from "../../assets/Room1.jpg";
-import Room2 from "../../assets/Room2.jpeg";
-import Room3 from "../../assets/Room3.jpeg";
+import Room2 from "../../assets/Room3.jpeg";
+import Room3 from "../../assets/seragam.jpeg";
 
 const Hero = () => {
   const slides = [
