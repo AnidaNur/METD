@@ -1,22 +1,7 @@
-import Img2 from "../../assets/Antimo anak jeruk.png";
-import Img4 from "../../assets/antimo strawbery.png";
-import Img1 from "../../assets/Antimo tablet.png";
-import Img5 from "../../assets/becefort sirup.png";
-import Img6 from "../../assets/becefort tablet.png";
-import Img7 from "../../assets/betafort.png";
-import Img11 from "../../assets/bioron forte.png";
-import Img14 from "../../assets/bioron.png";
-import Img8 from "../../assets/febrinex.png";
-import Img13 from "../../assets/Fitogen.png";
-import Img10 from "../../assets/hemorogard.png";
-import Img9 from "../../assets/livron.png";
-import Img3 from "../../assets/noza.png";
-import Img12 from "../../assets/tensigard.png";
-
 const ProductData = [
   {
     id: 1,
-    img: Img1,
+    img: "/assets/Antimo tablet.png",
     name: "Antimo Tablet",
     Kemasan: "Dus, 72 catch cover @ 1 strip @ 10 tablet ",
     Komposisi: "Tiap tablet berisi :Dimenhydrinate 50 mg",
@@ -27,7 +12,7 @@ const ProductData = [
   },
   {
     id: 2,
-    img: Img2,
+    img: "/assets/Antimo anak jeruk.png",
     name: "Antimo Anak Jeruk",
     Kemasan: "Dus, 10 sachet @ 5 ml",
     Komposisi: "Tiap sachet (5 ml) mengandung : Dimenhydrinate 12,5 mg",
@@ -38,7 +23,7 @@ const ProductData = [
   },
   {
     id: 3,
-    img: Img3,
+    img: "/assets/noza.png",
     name: "Noza",
     Kemasan: "Dus, 25 catch cover @ 1 strip @ 4 kaplet",
     Komposisi: "Tiap kaplet berisi : Triprolidin HCl 2,5 mg,Pseudoephedrine HCl 30 mg, Paracetamol 500 mg ",
@@ -48,7 +33,7 @@ const ProductData = [
   },
   {
     id: 4,
-    img: Img4,
+    img: "/assets/antimo strawbery.png",
     name: "Antimo Strawberry",
     Kemasan: "Dus, 10 sachet @ 5 ml",
     Komposisi: "Tiap sachet (5 ml) mengandung : Dimenhydrinate 12,5 mg ",
@@ -59,7 +44,7 @@ const ProductData = [
   },
   {
     id: 5,
-    img: Img5,
+    img: "/assets/becefort sirup.png",
     name: "Becefort Sirop",
     Kemasan: "Dus, botol kaca @ 60 ml",
     Komposisi: "Tiap 5 ml :Thiamine HCl (Vitamin B1) 10 mg Riboflabvin Sodium Phosphate (Vitamin B2) 6 mg Pyridoxine HCl (Vitamin B6) 10 mg Cyanocobalamine (Vitamin B12) 10  mcg D-Pantothenol 10 mg Nicotinamide 50 mg Ascorbic Acid (Vitamin C) 100 mg",
@@ -70,7 +55,7 @@ const ProductData = [
   },
   {
     id: 6,
-    img: Img6,
+    img: "/assets/becefort tablet.png",
     name: "Becefort Tablet",
     Kemasan: "Dus, 10 strip @ 10 kaplet salut selaput Dus, 25 catchcover @ 4 kaplet salut selaput",
     Komposisi: "1 kaplet salut selaput : Thiamine Nitrate (Vitamin B1) 15 mg Riboflavin (Vitamin B2) 10 mg Pyridoxine (Vitamin B6) HCl 5 mg Cyanocobalamin (Vitamin B12) 100 mcg Calcium pantothenate 20 mg Nicotinamide (Vitamin B3) 50 mg Ascorbic Acid (Vitamin C) 500 mg Tocopherol (Vitamin E) 30 mg ",
@@ -81,7 +66,7 @@ const ProductData = [
   },
   {
     id: 7,
-    img: Img7,
+    img: "/assets/betafort.png",
     name: "Betafort Suspensi", 
     Kemasan: "Dus, botol kaca @ 60 ml",
     Komposisi: "Tiap 5 ml mengandung : Ascorbic Acid (Vitamin C) 4,2 mg Nicotinaminde 45 mg Dexpanthenol 5 mg Pyridoxine HCl (Vitamin B6 HCl) 1,4 mg Riboflavin Sodium Phosphate (Vitamin B2 Sodium Phosphate) 1,2 mg Thiamine HCl (Vitamin B1 HCl) 1 mg Cholecalciferol (Vitamin D3) 10- mcg Cyanocobalamin (Vitamin B12) 1,4 mcg",
@@ -92,7 +77,7 @@ const ProductData = [
   },
   {
     id: 8,
-    img: Img8,
+    img: "/assets/febrinex.png",
     name: "Febrinex",
     Kemasan: "Dus, 1 botol @ 60 ml ",
     Komposisi: "Tiap sendok teh (5 ml) berisi : Paracetamol 130 mg Dexchlorpheniramine maleate 1 mg Guaiacolsulfonate Potassium 20 mg ",
@@ -103,7 +88,7 @@ const ProductData = [
   },
   {
     id: 9,
-    img: Img9,
+    img: "/assets/livron.png",
     name: "Livron Plex",
     Kemasan: "Dus, 10 strip @ 10 tabet salut gula ",
     Komposisi: "1 tablet salut gula : Riboflavin (Vitamin B2) 0,25 mg Pyridoxine HCl (Vitamin B6) 0,25 mg  Folic acid 500 mcg Ca pantothenate 1,5 mg Nicotinamide (Vitamin B3) 10 mg Thiamine mononitrate (Vitamin B1) 1,5 mg Ferrous gluconate 107,5 mg setara dengan elemental iron 12,45 mg Ascorbic acid (Vitamin C) 12,50 mg Copper gluconate 1,18 mg setara dengan elemental Copper 0,165 mg",
@@ -114,7 +99,7 @@ const ProductData = [
   },
   {
     id: 10,
-    img: Img10,
+    img: "/assets/hemorogard.png",
     name: "Hemorogard",
     Kemasan: "Dus, 3 blister @ 10 kapsul  ",
     Komposisi: "Tiap kapsul berisi : Ekstrak Graptophylli picti folium 14 mgEkstrak Citri sinensis fructus 50 mg (Mengandung Bioflavonoid 50%)",
@@ -125,7 +110,7 @@ const ProductData = [
   },
   {
     id: 11,
-    img: Img11,
+    img: "/assets/bioron forte.png",
     name: "Bioron Forte",
     Kemasan: "Dus, 7 catch cover @ 4 tablet salut gula",
     Komposisi: "Tiap tablet mengandung Thiamine HCL (B1) 100 mg, Pyridoxine HCL (B6) 100 mg dan Cyanocobalamin (B12) 5.000 Mcg",
@@ -135,7 +120,7 @@ const ProductData = [
   },
   {
     id: 12,
-    img: Img12,
+    img: "/assets/tensigard.png",
     name: "Tensigard",
     Kemasan: "Dus, @ 10 kapsul Dus",
     Komposisi: "Tiap kapsul mengandung : Ekstrak Apii graveolentis herba 92 mg Ekstrak Orthosiphonis staminei folium 28 mg",
@@ -146,7 +131,7 @@ const ProductData = [
   },
   {
     id: 13,
-    img: Img13,
+    img: "/assets/Fitogen.png",
     name: "Fitogen",
     Kemasan: "Dus,isi 3 Strip x 10 Tablet",
     Komposisi: "Tiap kapsul mengandung : Red clover extr 100 mg, vit B1 10 mg, vit B6 10 mg, vit E 15 mg",
@@ -156,7 +141,7 @@ const ProductData = [
   },
   {
     id: 14,
-    img: Img14,
+    img: "/assets/bioron.png",
     name: "Bioron",
     Kemasan: "Dus, @ 10 Strip x 10 Tablet",
     Komposisi: "Cyanocobalamin, Pyridoxine Hydrochloride, Thiamine Hydrochloride",

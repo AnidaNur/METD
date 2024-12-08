@@ -6,8 +6,6 @@ const Footer = () => {
     <div className="bg-Tertiary">
       <section className="container mx-auto px-4 lg:px-20 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-8 mb-6">
-
-          {/* PT Menjangan Enam Trading and Distribution */}
           <div className="lg:col-span-4 col-span-12 mt-6">
             <p className="font-semibold text-lg sm:text-xl md:text-2xl text-black">
               PT Menjangan Enam Trading and Distribution
@@ -31,7 +29,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Links Section */}
           <div className="lg:col-span-2 md:col-span-4 col-span-12 mt-12">
             <h5 className="tracking-wide font-semibold text-lg sm:text-xl md:text-2xl text-black">
               Links

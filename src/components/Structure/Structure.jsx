@@ -1,13 +1,10 @@
 import React from "react";
-import Struktur from "../../assets/Struktur.png";
 
 const Structure = () => {
   return (
     <div className="min-h-screen bg-primary flex flex-col justify-center items-center relative duration-200">
       <div className="container px-4 sm:px-6 lg:px-8 py-4 mx-auto">
-        {/* Grid text image */}
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-8">
-          {/* Text content section */}
           <div
             data-aos="zoom-out"
             data-aos-duration="400"
@@ -21,7 +18,7 @@ const Structure = () => {
 
           <div className="flex justify-center sm:justify-center">
             <img
-              src={Struktur}
+              src={"/assets/Struktur.png"}
               alt="Struktur"
               className="w-[900px] sm:w-[1000px] md:w-[1100px] lg:w-[1200px] h-auto mx-auto rounded-3xl object-contain"
             />

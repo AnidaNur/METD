@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../assets/logo.jpeg";
 
 const Banner = () => {
   return (
@@ -12,10 +11,9 @@ const Banner = () => {
             className="container px-4 sm:px-6 lg:px-8 mx-auto"
           >
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center">
-              {/* Image */}
               <div className="flex justify-center">
                 <img
-                  src={Logo}
+                  src={"/assets/logo.jpeg"}
                   alt="Logo img"
                   className="w-48 sm:w-64 md:w-72 lg:w-80 xl:w-96 max-w-full mx-auto rounded-lg shadow-lg object-contain"
                 />

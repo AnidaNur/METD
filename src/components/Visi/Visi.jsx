@@ -1,5 +1,4 @@
 import React from "react";
-import Dus from "../../assets/Cargo.jpg";
 
 const Visi = () => {
   return (
@@ -40,10 +39,9 @@ const Visi = () => {
               </ul>
             </div>
           </div>
-          {/* Image section */}
           <div className="flex justify-center lg:justify-end ">
             <img
-              src={Dus}
+              src={"/assets/Cargo.jpg"}
               alt="Dus img"
               className="w-48 sm:w-64 md:w-80 lg:w-[450px] xl:w-[500px] h-auto mx-auto rounded-3xl object-contain shadow-lg"
             />
